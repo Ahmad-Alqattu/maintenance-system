@@ -1,0 +1,112 @@
+// LoginPage.scss
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    direction: rtl;
+  
+    .login-left {
+      width: 50%;
+      background: linear-gradient(to top, #06248f, #0066cc);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+  
+      .content {
+        position: relative;
+        z-index: 2;
+        padding-right: 6%;
+  
+        .title {
+          color: white;
+          margin-bottom: 2rem;
+          font-weight: bold;
+        //   text-align: right;
+
+        }
+  
+        .guide-btn {
+        //   align-self: right;
+          background-color: #0875e2;
+          border-radius: 30px;
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+          }
+        }
+      }
+  
+      .circles {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+        .circle {
+          position: absolute;
+          border-radius: 50%;
+          
+          &.circle-1 {
+            width: 600px;
+            height: 600px;
+            border: 1px solid rgba(44, 205, 254, 0.979);
+            bottom: -430px;
+            left: -200px;
+          }
+          
+          &.circle-2 {
+            width: 600px;
+            height: 600px;
+            border: 1px solid rgba(44, 205, 254, 0.979);
+            bottom: -400px;
+            left: -300px;
+          }
+        }
+      }
+    }
+  
+    .login-right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+  
+      .login-form {
+        width: 100%;
+        max-width: 270px;
+        text-align: right;
+  
+        .welcome-text {
+          margin-bottom: 1rem;
+          font-weight: bold;
+        }
+  
+        .login-text {
+          margin-bottom: 2rem;
+          color: #666;
+        }
+  
+        .text-field {
+          margin-bottom: 1.5rem;
+
+          input {
+            text-align: right;
+          }
+        }
+  
+        .submit-btn {
+          background-color: #0572de;
+          padding: 0.8rem;
+          margin-top: 1rem;
+          border-radius: 25px;
+          
+          &:hover {
+            background-color: #0052a3;
+          }
+        }
+      }
+    }
+  }

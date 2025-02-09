@@ -1,0 +1,49 @@
+{
+  "common": {
+    "search": "ابحث هنا",
+    "language": "اللغة",
+    "systemTitle": "نظام الصيانة والتشغيل"
+  },
+  "menu": {
+    "home": {
+      "title": "الرئيسية"
+    },
+    "assets": {
+      "title": "الأصول الثابتة",
+      "register": "تسجيل الأصول",
+      "evaluate": "تقييم الأصول",
+      "reports": "تقارير الأصول"
+    },
+    "maintenance": {
+      "title": "الصيانة",
+      "plans": "خطط الصيانة",
+      "schedule": "جدول الصيانة",
+      "logs": "سجل الصيانة"
+    },
+    "operations": {
+      "title": "التشغيل",
+      "plans": "خطط التشغيل",
+      "schedule": "جداول التشغيل",
+      "reports": "تقارير التشغيل"
+    },
+    "reports": {
+      "title": "التقارير",
+      "performance": "تقارير الأداء",
+      "cost": "تقارير التكلفة",
+      "status": "تقارير الحالة"
+    },
+    "settings": {
+      "title": "الإعدادات"
+    }
+  },
+  "buttons": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "noNew": "لا توجد إشعارات جديدة"
+  }
+}

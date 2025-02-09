@@ -1,0 +1,37 @@
+{
+    "common": {
+      "search": "Search..."
+    },
+    "menu": {
+      "home": {
+        "title": "Home"
+      },
+      "assets": {
+        "title": "Fixed Assets",
+        "register": "Asset Registration",
+        "evaluate": "Asset Evaluation",
+        "reports": "Asset Reports"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "plans": "Maintenance Plans",
+        "schedule": "Maintenance Schedule",
+        "logs": "Maintenance Log"
+      },
+      "operations": {
+        "title": "Operations",
+        "plans": "Operation Plans",
+        "schedule": "Operation Schedules",
+        "reports": "Operation Reports"
+      },
+      "reports": {
+        "title": "Reports",
+        "performance": "Performance Reports",
+        "cost": "Cost Reports",
+        "status": "Status Reports"
+      },
+      "settings": {
+        "title": "Settings"
+      }
+    }
+  }
