@@ -11,7 +11,7 @@ import '@fontsource/cairo/400.css';
 import '@fontsource/cairo/500.css';
 import '@fontsource/cairo/600.css';
 import '@fontsource/cairo/700.css';
-
+import './index.css';  // or './App.css'
 // Pages
 import Dashboard from './pages/Dashboard';
 import MaintenancePlans from './pages/maintenance/MaintenancePlans';
@@ -20,6 +20,7 @@ import LookupManagement from './pages/assets/LookupManagement';
 import Login from './pages/Login';
 import MainLayout from './layouts/MainLayout';
 import AssetReplacement from './pages/assets/AssetReplacement';
+import CreateFinancialYear from './pages/maintenance/CreateFinancialYear';
 
 function App() {
   const { i18n } = useTranslation();
@@ -91,6 +92,8 @@ function App() {
             <Route path="/assets-register" element={<AddAssetForm />} />  
             <Route path="/assets-replacement" element={<AssetReplacement />} />  
             <Route path="/lookups" element={<LookupManagement />} />
+            <Route path="/create-financial-year" element={<CreateFinancialYear />} />
+
 
             {/* Add more routes as needed */}
             

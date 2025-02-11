@@ -9,7 +9,7 @@ export const ToggleSwitch = ({
   direction = 'rtl'
 }) => {
   const { t } = useTranslation();
-  label = t('common.enable');
+  label=label? label:t('common.enable');
   return (
     <FormControlLabel
       labelPlacement={direction === 'rtl' ? 'start' : 'end'}

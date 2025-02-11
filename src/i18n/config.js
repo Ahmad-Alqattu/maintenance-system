@@ -30,11 +30,13 @@ const resources = {
       menu: {
         home: { title: 'Home' },
         assets: { title: 'Fixed Assets' },
+      
         'assets-register': { title: 'Asset Registration' },
         'assets-evaluate': { title: 'Asset Evaluation' },
         'assets-replacement': { title: 'Assets Replacement' },
         'assets-reports': { title: 'Asset Reports' },
         maintenance: { title: 'Maintenance' },
+        'create-financial-year': { title: 'Create New Financial Year' },
         'maintenance-plans': { title: 'Maintenance Plans' },
         'maintenance-schedule': { title: 'Maintenance Schedule' },
         'maintenance-log': { title: 'Maintenance Log' },
@@ -134,6 +136,30 @@ const resources = {
         actions: "Actions",
         exportToExcel: "Export to Excel",
         mainCategory: "Main Category",
+        budget: "Budget",
+        financialYear: "Financial Year",
+        totalBudget: "Total Budget",
+        previousYear: "Previous Year",
+        allocatedBudget: "Allocated Budget",
+        actualBudget: "Actual Budget",
+        vehicles: "Vehicles",
+        fixedFurniture: "Fixed Furniture",
+        computers: "Computers",
+        buildings: "Buildings",
+        number: "Number",
+        classification: "Classification",
+        copyPreviousData: "Copy Previous Financial Year Data",
+        TotalBudget: "Total Budget",
+        BudgetForMaintenance: "Budget For Maintenance"        ,
+        preventiveMaintenance: "Preventive Maintenance",
+  correctiveMaintenance: "Corrective Maintenance",
+  emergencyMaintenance: "Emergency Maintenance",
+  predictiveMaintenance: "Predictive Maintenance",
+  maintenanceType: "Maintenance Type",
+        remainingBudget: "Remaining Budget",
+        heavyMachinery: "Heavy Machinery",
+
+
 
 
       },
@@ -159,10 +185,13 @@ const resources = {
           reports: "Reports",
           lookupManagement: "Lookup Management",
           settings: "Settings",
-          assetReplacement: "Asset Replacement"
+          assetReplacement: "Asset Replacement",
+          createNewFinancialYear: "Create New Financial Year"
 
         },
         sections: {
+          newFinancialYear: "New Financial Year",
+          copyPreviousData: "Copy Previous Data",
           depreciation: "Depreciation",
           basicInfo: "Basic Information",
           details: "Details",
@@ -175,6 +204,10 @@ const resources = {
           administrativeDetails: "Administrative Details",
           acquisition: "Acquisition",
           assetTypeFormTitle: "Assets Types Form",
+          assetTypeForm: "Assets Types",
+          assetReplacement: "Asset Replacement",
+          budgetDistribution: "Budget Distribution by Maintenance Type",
+          
 
         }
       },
@@ -222,6 +255,7 @@ const resources = {
         'assets-replacement': {title:'استبدال الأصل'},
         'assets-reports': { title: 'تقارير الأصول' },
         maintenance: { title: 'الصيانة' },
+        'create-financial-year': { title: 'إعداد سنة مالية جديدة' },
         'maintenance-plans': { title: 'خطط الصيانة' },
         'maintenance-schedule': { title: 'جدول الصيانة' },
         'maintenance-log': { title: 'سجل الصيانة' },
@@ -323,6 +357,30 @@ const resources = {
         exportToExcel: "تصدير إلى Excel",
         mainCategory: "الفئة الرئيسية",
 
+        
+        budget: "الموازنة",
+        financialYear: "السنة المالية",
+        totalBudget: "إجمالي الميزانية",
+        previousYear: "السنة السابقة",
+        allocatedBudget: "الموازنة المخصصة",
+        actualBudget: "الموازنة الفعلية",
+        vehicles: "مركبات",
+        fixedFurniture: "اثاث ثابت",
+        computers: "أجهزة كمبيوتر",
+        buildings: "مباني",
+        number: "الرقم",
+        classification: "التصنيف",
+        copyPreviousData: "نسخ بيانات سنة مالية سابقة",
+        TotalBudget: "الموازنة الاجمالية",
+        BudgetForMaintenance: "الموازنة المخصصة للصيانة ",
+        preventiveMaintenance: "الصيانة الوقائية",
+  correctiveMaintenance: "الصيانة المتجددة",
+  emergencyMaintenance: "الصيانة الجارية",
+  predictiveMaintenance: "الصيانة السنوية",
+  maintenanceType: "نوع الصيانة",
+        remainingBudget: "الميزانية المتبقية",
+        heavyMachinery: "معدات ثقيلة",
+
       },
 
       validation: {
@@ -341,6 +399,7 @@ const resources = {
       // Global titles for all pages
       titles: {
         pageTitles: {
+          createNewFinancialYear: "إعداد سنة مالية جديدة",
           assetManagement: "إدارة الأصول",
           maintenance: "الصيانة",
           operations: "العمليات",
@@ -363,7 +422,14 @@ const resources = {
           settings: "الإعدادات",
           summary: "الملخص",
           acquisition: "الحيازة",
-          assetTypeForm: "أنواع الأصول"
+          assetTypeForm: "أنواع الأصول",
+          assetTypeFormTitle: "نموذج أنواع الأصول",
+          assetReplacement: "استبدال الأصل",
+          newFinancialYear: "اعداد سنة مالية جديدة",
+          copyPreviousData: "نسخ البيانات السابقة",
+          budgetDistribution: "توزيع الموازنة حسب نوع الصيانة",
+
+          
 
         }
       },
